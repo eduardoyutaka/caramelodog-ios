@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4B9B6023D5075B001EAFB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B9B5F23D5075B001EAFB1 /* AppDelegate.swift */; };
+		2A4B9B6623D5075B001EAFB1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B9B6523D5075B001EAFB1 /* GameScene.swift */; };
+		2A4B9B6823D5075B001EAFB1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B9B6723D5075B001EAFB1 /* GameViewController.swift */; };
+		2A4B9B6B23D5075B001EAFB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4B9B6923D5075B001EAFB1 /* Main.storyboard */; };
+		2A4B9B6D23D5075F001EAFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4B9B6C23D5075F001EAFB1 /* Assets.xcassets */; };
+		2A4B9B7023D5075F001EAFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4B9B6E23D5075F001EAFB1 /* LaunchScreen.storyboard */; };
+		2A4B9B7B23D50760001EAFB1 /* CarameloDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B9B7A23D50760001EAFB1 /* CarameloDogTests.swift */; };
+		2A4B9B8623D50760001EAFB1 /* CarameloDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B9B8523D50760001EAFB1 /* CarameloDogUITests.swift */; };
+		2A4B9B9523D50ABE001EAFB1 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B9B9423D50ABE001EAFB1 /* StartScene.swift */; };
+		2A4B9B9823D50BD7001EAFB1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B9B9723D50BD7001EAFB1 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A4B9B7723D50760001EAFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A4B9B5423D5075A001EAFB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4B9B5B23D5075A001EAFB1;
+			remoteInfo = CarameloDog;
+		};
+		2A4B9B8223D50760001EAFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A4B9B5423D5075A001EAFB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4B9B5B23D5075A001EAFB1;
+			remoteInfo = CarameloDog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A4B9B5C23D5075A001EAFB1 /* CarameloDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarameloDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4B9B5F23D5075B001EAFB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A4B9B6523D5075B001EAFB1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2A4B9B6723D5075B001EAFB1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2A4B9B6A23D5075B001EAFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A4B9B6C23D5075F001EAFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A4B9B6F23D5075F001EAFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A4B9B7123D5075F001EAFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4B9B7623D50760001EAFB1 /* CarameloDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarameloDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4B9B7A23D50760001EAFB1 /* CarameloDogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloDogTests.swift; sourceTree = "<group>"; };
+		2A4B9B7C23D50760001EAFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4B9B8123D50760001EAFB1 /* CarameloDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarameloDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4B9B8523D50760001EAFB1 /* CarameloDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarameloDogUITests.swift; sourceTree = "<group>"; };
+		2A4B9B8723D50760001EAFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4B9B9423D50ABE001EAFB1 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		2A4B9B9723D50BD7001EAFB1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A4B9B5923D5075A001EAFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4B9B7323D50760001EAFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4B9B7E23D50760001EAFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A4B9B5323D5075A001EAFB1 = {
+			isa = PBXGroup;
+			children = (
+				2A4B9B5E23D5075A001EAFB1 /* CarameloDog */,
+				2A4B9B7923D50760001EAFB1 /* CarameloDogTests */,
+				2A4B9B8423D50760001EAFB1 /* CarameloDogUITests */,
+				2A4B9B5D23D5075A001EAFB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A4B9B5D23D5075A001EAFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B9B5C23D5075A001EAFB1 /* CarameloDog.app */,
+				2A4B9B7623D50760001EAFB1 /* CarameloDogTests.xctest */,
+				2A4B9B8123D50760001EAFB1 /* CarameloDogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A4B9B5E23D5075A001EAFB1 /* CarameloDog */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B9B9323D50A67001EAFB1 /* Scenes */,
+				2A4B9B5F23D5075B001EAFB1 /* AppDelegate.swift */,
+				2A4B9B6723D5075B001EAFB1 /* GameViewController.swift */,
+				2A4B9B6923D5075B001EAFB1 /* Main.storyboard */,
+				2A4B9B6C23D5075F001EAFB1 /* Assets.xcassets */,
+				2A4B9B6E23D5075F001EAFB1 /* LaunchScreen.storyboard */,
+				2A4B9B7123D5075F001EAFB1 /* Info.plist */,
+				2A4B9B9723D50BD7001EAFB1 /* Constants.swift */,
+			);
+			path = CarameloDog;
+			sourceTree = "<group>";
+		};
+		2A4B9B7923D50760001EAFB1 /* CarameloDogTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B9B7A23D50760001EAFB1 /* CarameloDogTests.swift */,
+				2A4B9B7C23D50760001EAFB1 /* Info.plist */,
+			);
+			path = CarameloDogTests;
+			sourceTree = "<group>";
+		};
+		2A4B9B8423D50760001EAFB1 /* CarameloDogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B9B8523D50760001EAFB1 /* CarameloDogUITests.swift */,
+				2A4B9B8723D50760001EAFB1 /* Info.plist */,
+			);
+			path = CarameloDogUITests;
+			sourceTree = "<group>";
+		};
+		2A4B9B9323D50A67001EAFB1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B9B6523D5075B001EAFB1 /* GameScene.swift */,
+				2A4B9B9423D50ABE001EAFB1 /* StartScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A4B9B5B23D5075A001EAFB1 /* CarameloDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4B9B8A23D50760001EAFB1 /* Build configuration list for PBXNativeTarget "CarameloDog" */;
+			buildPhases = (
+				2A4B9B5823D5075A001EAFB1 /* Sources */,
+				2A4B9B5923D5075A001EAFB1 /* Frameworks */,
+				2A4B9B5A23D5075A001EAFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarameloDog;
+			productName = CarameloDog;
+			productReference = 2A4B9B5C23D5075A001EAFB1 /* CarameloDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A4B9B7523D50760001EAFB1 /* CarameloDogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4B9B8D23D50760001EAFB1 /* Build configuration list for PBXNativeTarget "CarameloDogTests" */;
+			buildPhases = (
+				2A4B9B7223D50760001EAFB1 /* Sources */,
+				2A4B9B7323D50760001EAFB1 /* Frameworks */,
+				2A4B9B7423D50760001EAFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A4B9B7823D50760001EAFB1 /* PBXTargetDependency */,
+			);
+			name = CarameloDogTests;
+			productName = CarameloDogTests;
+			productReference = 2A4B9B7623D50760001EAFB1 /* CarameloDogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A4B9B8023D50760001EAFB1 /* CarameloDogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4B9B9023D50760001EAFB1 /* Build configuration list for PBXNativeTarget "CarameloDogUITests" */;
+			buildPhases = (
+				2A4B9B7D23D50760001EAFB1 /* Sources */,
+				2A4B9B7E23D50760001EAFB1 /* Frameworks */,
+				2A4B9B7F23D50760001EAFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A4B9B8323D50760001EAFB1 /* PBXTargetDependency */,
+			);
+			name = CarameloDogUITests;
+			productName = CarameloDogUITests;
+			productReference = 2A4B9B8123D50760001EAFB1 /* CarameloDogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A4B9B5423D5075A001EAFB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Dumon;
+				TargetAttributes = {
+					2A4B9B5B23D5075A001EAFB1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2A4B9B7523D50760001EAFB1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2A4B9B5B23D5075A001EAFB1;
+					};
+					2A4B9B8023D50760001EAFB1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2A4B9B5B23D5075A001EAFB1;
+					};
+				};
+			};
+			buildConfigurationList = 2A4B9B5723D5075A001EAFB1 /* Build configuration list for PBXProject "CarameloDog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A4B9B5323D5075A001EAFB1;
+			productRefGroup = 2A4B9B5D23D5075A001EAFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A4B9B5B23D5075A001EAFB1 /* CarameloDog */,
+				2A4B9B7523D50760001EAFB1 /* CarameloDogTests */,
+				2A4B9B8023D50760001EAFB1 /* CarameloDogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A4B9B5A23D5075A001EAFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4B9B6B23D5075B001EAFB1 /* Main.storyboard in Resources */,
+				2A4B9B6D23D5075F001EAFB1 /* Assets.xcassets in Resources */,
+				2A4B9B7023D5075F001EAFB1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4B9B7423D50760001EAFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4B9B7F23D50760001EAFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A4B9B5823D5075A001EAFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4B9B9823D50BD7001EAFB1 /* Constants.swift in Sources */,
+				2A4B9B6623D5075B001EAFB1 /* GameScene.swift in Sources */,
+				2A4B9B6823D5075B001EAFB1 /* GameViewController.swift in Sources */,
+				2A4B9B6023D5075B001EAFB1 /* AppDelegate.swift in Sources */,
+				2A4B9B9523D50ABE001EAFB1 /* StartScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4B9B7223D50760001EAFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4B9B7B23D50760001EAFB1 /* CarameloDogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4B9B7D23D50760001EAFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4B9B8623D50760001EAFB1 /* CarameloDogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A4B9B7823D50760001EAFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A4B9B5B23D5075A001EAFB1 /* CarameloDog */;
+			targetProxy = 2A4B9B7723D50760001EAFB1 /* PBXContainerItemProxy */;
+		};
+		2A4B9B8323D50760001EAFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A4B9B5B23D5075A001EAFB1 /* CarameloDog */;
+			targetProxy = 2A4B9B8223D50760001EAFB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A4B9B6923D5075B001EAFB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A4B9B6A23D5075B001EAFB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A4B9B6E23D5075F001EAFB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A4B9B6F23D5075F001EAFB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A4B9B8823D50760001EAFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A4B9B8923D50760001EAFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A4B9B8B23D50760001EAFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NM7H49NAJ;
+				INFOPLIST_FILE = CarameloDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dumon.CarameloDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A4B9B8C23D50760001EAFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NM7H49NAJ;
+				INFOPLIST_FILE = CarameloDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dumon.CarameloDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2A4B9B8E23D50760001EAFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NM7H49NAJ;
+				INFOPLIST_FILE = CarameloDogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dumon.CarameloDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarameloDog.app/CarameloDog";
+			};
+			name = Debug;
+		};
+		2A4B9B8F23D50760001EAFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NM7H49NAJ;
+				INFOPLIST_FILE = CarameloDogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dumon.CarameloDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarameloDog.app/CarameloDog";
+			};
+			name = Release;
+		};
+		2A4B9B9123D50760001EAFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NM7H49NAJ;
+				INFOPLIST_FILE = CarameloDogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dumon.CarameloDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarameloDog;
+			};
+			name = Debug;
+		};
+		2A4B9B9223D50760001EAFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NM7H49NAJ;
+				INFOPLIST_FILE = CarameloDogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dumon.CarameloDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarameloDog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A4B9B5723D5075A001EAFB1 /* Build configuration list for PBXProject "CarameloDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4B9B8823D50760001EAFB1 /* Debug */,
+				2A4B9B8923D50760001EAFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4B9B8A23D50760001EAFB1 /* Build configuration list for PBXNativeTarget "CarameloDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4B9B8B23D50760001EAFB1 /* Debug */,
+				2A4B9B8C23D50760001EAFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4B9B8D23D50760001EAFB1 /* Build configuration list for PBXNativeTarget "CarameloDogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4B9B8E23D50760001EAFB1 /* Debug */,
+				2A4B9B8F23D50760001EAFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4B9B9023D50760001EAFB1 /* Build configuration list for PBXNativeTarget "CarameloDogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4B9B9123D50760001EAFB1 /* Debug */,
+				2A4B9B9223D50760001EAFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A4B9B5423D5075A001EAFB1 /* Project object */;
+}
