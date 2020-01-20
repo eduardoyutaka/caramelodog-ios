@@ -21,9 +21,6 @@ class GameViewController: UIViewController {
         
         let scene = StartScene()
         
-        let logoNode = SKSpriteNode(imageNamed: Constants.StartScreen.logo)
-        scene.addChild(logoNode)
-        
         skView.presentScene(scene)
     }
 }
