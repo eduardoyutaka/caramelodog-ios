@@ -11,6 +11,7 @@ import SpriteKit
 class ButtonNode: SKSpriteNode {
     
     var highlightedTexture: SKTexture?
+    var callback: () -> Void = { }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         texture = highlightedTexture
@@ -18,9 +19,14 @@ class ButtonNode: SKSpriteNode {
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         texture = normalTexture
+        callback()
     }
     
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         texture = normalTexture
+    }
+    
+    func setCallback(callback: @escaping () -> Void) {
+        self.callback = callback
     }
 }

@@ -10,7 +10,7 @@ import SpriteKit
 
 class GameViewController: UIViewController {
     
-    var skView: SKView {
+    private var skView: SKView {
         get {
             return view as! SKView
         }
@@ -18,9 +18,10 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let scene = StartScene()
-        
+        skView.presentScene(StartScene())
+    }
+    
+    func presentScene(scene: SKScene) {
         skView.presentScene(scene)
     }
 }

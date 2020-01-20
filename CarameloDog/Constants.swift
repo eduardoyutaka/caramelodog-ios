@@ -12,7 +12,11 @@ struct Constants {
     struct Colors {
         static let lightPink = #colorLiteral(red: 1, green: 0.9411764706, blue: 0.9137254902, alpha: 1)
     }
-    struct StartScreen {
+    struct DoorScene {
+        static let doorName = "door"
+        static let door = "door.png"
+    }
+    struct StartScene {
         struct Animations {
             static let logo0 = "logo-animation-0.png"
             static let logo1 = "logo-animation-1.png"

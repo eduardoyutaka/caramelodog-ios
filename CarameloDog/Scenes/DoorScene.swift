@@ -6,8 +6,18 @@
 //  Copyright © 2020 Dumon. All rights reserved.
 //
 
-import UIKit
+import SpriteKit
 
-class DoorScene: SKScene {
-
+class DoorScene: GameScene {
+    var doorNode: SKNode {
+        return childNode(withName: Constants.DoorScene.doorName)!
+    }
+    
+    override func sceneDidLoad() {
+        super.sceneDidLoad()
+        let doorNode = SKSpriteNode(imageNamed: Constants.DoorScene.door)
+        doorNode.name = Constants.DoorScene.doorName
+        doorNode.isUserInteractionEnabled = true
+        addChild(doorNode)
+    }
 }
