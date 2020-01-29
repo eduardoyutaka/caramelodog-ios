@@ -18,12 +18,24 @@ class ButtonNode: SKSpriteNode {
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first {
+            let location = touch.location(in: self)
+            if (abs(location.x) < size.width / 2 && abs(location.y) < size.height / 2) {
+                callback()
+            }
+        }
         texture = normalTexture
-        callback()
     }
     
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-        texture = normalTexture
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first {
+            let location = touch.location(in: self)
+            if (abs(location.x) > size.width / 2 || abs(location.y) > size.height / 2) {
+                texture = normalTexture
+            } else {
+                texture = highlightedTexture
+            }
+        }
     }
     
     func setCallback(callback: @escaping () -> Void) {

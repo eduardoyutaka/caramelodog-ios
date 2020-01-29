@@ -16,6 +16,12 @@ struct Constants {
         static let doorName = "door"
         static let door = "door.png"
     }
+    struct HomeScene {
+        static let arrowName = "arrow"
+        static let homeName = "home"
+        static let homeButtonNormal = "home"
+        static let homeButtonHighlighted = "home"
+    }
     struct StartScene {
         struct Animations {
             static let logo0 = "logo-animation-0.png"
@@ -28,8 +34,11 @@ struct Constants {
         static let startButtonName = "start-button-normal"
     }
     struct Screen {
-        static let height = UIScreen.main.bounds.height
-        static let size = UIScreen.main.bounds.size
-        static let width = UIScreen.main.bounds.width
+        private static let virtualWidth = CGFloat(375.0)
+        private static let virtualHeight = CGFloat(812.0)
+        static let scalingFactor = UIScreen.main.bounds.width / Constants.Screen.virtualWidth
+        static let width = Constants.Screen.virtualWidth * Constants.Screen.scalingFactor
+        static let height = Constants.Screen.virtualHeight * Constants.Screen.scalingFactor
+        static let size = CGSize(width: Constants.Screen.width, height: Constants.Screen.height)
     }
 }

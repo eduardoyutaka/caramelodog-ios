@@ -31,10 +31,10 @@ class StartScene: GameScene {
         startButtonNode.position = CGPoint(x: 0.0, y: -Constants.Screen.height / 3)
         startButtonNode.normalTexture = SKTexture(imageNamed: Constants.StartScene.startButtonNormal)
         startButtonNode.highlightedTexture = SKTexture(imageNamed: Constants.StartScene.startButtonHighlighted)
-        startButtonNode.setCallback {
-            self.viewController.presentScene(scene: DoorScene())
-        }
         startButtonNode.isUserInteractionEnabled = true
+        startButtonNode.setCallback {
+            self.viewController.presentScene(scene: HomeScene())
+        }
         addChild(startButtonNode)
         
         startAnimations()

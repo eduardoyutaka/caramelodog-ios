@@ -16,6 +16,7 @@ class DoorScene: GameScene {
     override func sceneDidLoad() {
         super.sceneDidLoad()
         let doorNode = SKSpriteNode(imageNamed: Constants.DoorScene.door)
+        doorNode.scale(to: Constants.Screen.size)
         doorNode.name = Constants.DoorScene.doorName
         doorNode.isUserInteractionEnabled = true
         addChild(doorNode)
